@@ -1,0 +1,21 @@
+{
+	"name": "modelo",
+	"description": "Este é um modelo deve ser editado",
+	"version": "RC-1.0",
+	"service": [{
+		"name": "load",
+		"protocolo": "tcp",
+		"url": "http://server.com.br/service/modelo.php"
+	},{
+		"name": "Java",
+		"protocolo": "script",
+		"lineComand": "java -jar /service/java.jar"
+	}],
+	"mysql":{
+		"host":"",
+		"port":"",
+		"user": "",
+		"pw": "",
+		"db": "service_modelo"
+	}
+}

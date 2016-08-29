@@ -186,9 +186,9 @@ abstract class Model{
 	 * Método responsável por alimentar o objeto atual com o id informado
 	 * @param int $aId id do objeto
 	 */
-	public function buscarPorId($aId){
-		ConexaoMySQL::objeto($aId, $this, $this->className());
-	}
+// 	public function buscarPorId($aId){
+// 		ConexaoMySQL::objeto($aId, $this, $this->className());
+// 	}
 	
 	/**
 	 * Método responsável por retornar o id da classe no banco
